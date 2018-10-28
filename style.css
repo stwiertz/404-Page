@@ -1,0 +1,67 @@
+body {
+    
+    text-align: center;
+    margin-top :150px;
+    margin-bottom: auto;
+    
+}
+
+#text_part{
+    
+    margin-bottom: 60px;
+    
+}
+
+
+
+#fun_part{
+    width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 70px;
+    
+    
+}
+
+#pointless{
+    
+    border:3px black solid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#pointlessbutton{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: red;
+}
+
+#pied{
+    
+    border-left : 3px black solid; 
+    border-right : 3px black solid; 
+    margin : 0 140px;
+}
+
+#safety{
+    border:3px black solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+.exit_button {
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.exit_button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
